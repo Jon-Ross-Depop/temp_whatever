@@ -14,10 +14,10 @@ data PictureData = PictureData { formats:: M.Map String ImageFormat } deriving (
 type PicturesData = [PictureData]
 
 findIdealUrl::PictureData -> Int -> Maybe String
-findIdealUrl _ _ = Just
+findIdealUrl _ _ = Just ""
 
 findIdealUrl2::[ImageFormat] -> Int -> Maybe String
-findIdealUrl2 l _ = fmap (findIdealUrl3 (fromList l) )
+findIdealUrl2 l _ = undefined
 
 findIdealUrl3::NonEmpty ImageFormat -> Int -> String
 findIdealUrl3 _ _ = undefined
