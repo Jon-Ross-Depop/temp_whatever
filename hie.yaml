@@ -1,0 +1,14 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "lesson20:lib"
+
+    - path: "./app/Main.hs"
+      component: "lesson20:exe:lesson20-exe"
+
+    - path: "./app/Paths_haskell_toy_example.hs"
+      component: "lesson20:exe:lesson20-exe"
+
+    - path: "./test"
+      component: "lesson20:test:lesson20-test"
+
