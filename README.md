@@ -1,3 +1,4 @@
+![CI](https://github.com/Jon-Ross-Depop/temp_whatever/workflows/CI/badge.svg)
 # lesson20
 
 ## How to build and run locally
